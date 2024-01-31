@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1eeee;
+}
+
+.to-do{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+   
+}
+
+.to-do button{
+    background-color: rgb(13, 216, 97);
+    color: #ffffff;
+padding: 5px;
+}
+.task-input{
+
+    padding: 5px;
+}
+.tasks{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.task{
+    display: flex;
+   
+    
+    gap: 10px;
+    background-color: #f1eeee;
+    width: 220px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+
+
+.checked{
+    text-decoration: line-through;
+}
+.unchecked{
+    text-decoration: none;
+}
