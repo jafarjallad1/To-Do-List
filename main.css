@@ -10,7 +10,7 @@ body{
 
 .to-do{
     width: 300px;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,11 @@ body{
 .to-do button{
     background-color: rgb(13, 216, 97);
     color: #ffffff;
-padding: 5px;
+padding: 5px 20px;
+    border-radius: 5px;
+}
+.to-do h1{
+    padding-bottom: 20px;
 }
 .task-input{
 
